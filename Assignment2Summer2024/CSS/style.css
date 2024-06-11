@@ -75,45 +75,7 @@ main > section > div > img{
     width: 100%;
     height: auto;
 }
-/** aside **/
-aside{
-    width: 15%;
-    padding: 5% 0%;
-    background-color: #f5f3e0;
-}
-aside > article{
-    width: 80%;
-    margin: auto auto 15px auto;
-    text-align: center;
-}
-aside > article > figure{
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
-/** targeting the image **/
-aside > article > figure > img{
-    width: 100%;
-    height: auto;
-}
-/** footer **/
-footer{
-    display: flex;
-    align-items: center;
 
-}
-footer > div{
-    width: 100%;
-    height: auto;
-}
-footer > div > form{
-    width: 90%;
-    height: auto;
-}
-footer > div + div > input{
-    width: 100%;
-    height: auto;
-}
 
 
 
