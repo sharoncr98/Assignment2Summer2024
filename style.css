@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color: #f5f3e0;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Poppins", sans-serif;
+}
+p,a,li,figcaption,footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/** header **/
+header{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #f5f3e0;
+}
+/** flex only takes the spaces it need so flew grow will take the horizontal axis **/
+header > div {
+    flex-grow: 1;
+    height: 145px;
+    width: auto;
+}
+/** keeping the aspect ratio **/
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+/** targeting the nav and making it horizontal, removing the dots on the list **/
+header > nav > menu{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+}
+/** 30 pixels of spacing between the menu li`s **/
+header > nav > menu > li{
+    padding: 0 30px;
+}
+header > nav > menu > li > a{
+    color: #3f2b27}
+/** masthead **/
+/** aligning on both axis, i decided to reduce the vh to 80 maybe making less need for scrolling down **/
+.lesson-masthead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3f2b27;
+    height: 80vh;
+}
+.lesson-masthead h1{
+    color: #f5f3e0;
+    font-size: 50px;
+}
+/** main content container **/
+.flex-content-container{
+    display: flex;
+}
+main{
+    width: 85%;
+}
+main > section{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+}
+main > section > div{
+    width: 50%;
+    padding: 10px;
+}
+main > section > div > img{
+    width: 100%;
+    height: auto;
+}
+/** aside **/
+aside{
+    width: 15%;
+    padding: 5% 0%;
+    background-color: #f5f3e0;
+}
+aside > article{
+    width: 80%;
+    margin: auto auto 15px auto;
+    text-align: center;
+}
+aside > article > figure{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+/** targeting the image **/
+aside > article > figure > img{
+    width: 100%;
+    height: auto;
+}
+/** footer **/
+footer{
+    display: flex;
+    align-items: center;
+
+}
+footer > div{
+    width: 100%;
+    height: auto;
+}
+footer > div > form{
+    width: 90%;
+    height: auto;
+}
+footer > div + div > input{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
